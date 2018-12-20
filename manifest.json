@@ -1,0 +1,15 @@
+{
+    "name": "MyMusikPlayer",
+    "short_name": "MusikPlayer",
+    "start_url": ".",
+    "display": "standalone",
+    "description": "Musik WebApp",
+    "icons": [
+        {
+            "src": "./img/favicon.ico",
+            "sizes": "144x144",
+            "type": "image/ico"
+        },
+        {}
+    ]
+}
