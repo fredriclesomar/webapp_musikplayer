@@ -1,0 +1,15 @@
+{
+    "name": "Multi Music Player",
+    "short_name": "MMPlayer",
+    "start_url": ".",
+    "display": "fullscreen",
+    "description": "Musik WebApp",
+    "icons": [
+        {
+            "src": "./img/apple-touch-icon-144x144-precomposed.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {}
+    ]
+}
