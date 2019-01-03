@@ -21,7 +21,7 @@
 		<title id="pageTitle">Music Player</title>
 		<link rel="icon" href="/ikon/image.gif" type="image/gif" />
 		<link href="player.css" type="text/css" rel="stylesheet"/>
-        <link rel="manifest" href="manifest.json"> <!-- Manifest -->
+        <link rel="manifest" href="manifest.webmanifest"> <!-- Manifest -->
 		<script src="playlist.php" type="application/javascript" charset="UTF-8"></script>
 		<script src="player.js" type="application/javascript" charset="UTF-8"></script>
         <script src="script.js" defer></script>
@@ -45,8 +45,7 @@
  <font size="14" color="white">Quote the day</font> 
   <div class="w3-panel w3-black">
     <p class="w3-large w3-serif">
-    <i class="fa fa-quote-right w3-xxlarge xw3-margin-right"></i>
-    Jadikan deritaku ini sebagai kesaksian bahwa kekuasaan seorang Presiden sekalipun ada batasnya. Karena kekuasaan yang langgeng hanya kekuasaan rakyat. Dan diatas segalanya adalah Kekuasaan Tuhan Yang Maha Esa  ~Soekarno</p>
+    <i class="fa fa-quote-right w3-xxlarge xw3-margin-right"></i>Tidak ada seorangpun yang dapat merubah 'orang itu', tetapi seseorang bisa menjadi alasan 'orang itu' untuk berubah.   ~Spongebob Squarepants</p>
   </div>
 </div>
 
@@ -140,15 +139,7 @@ document.oncontextmenu = redirectKK;
 				</div>
 			</div>
 		</div>
-	 <p>
-      Status cached: <span id="js-status">Unknown</span>
-    </p>
-    <p>
-      <button id="js-cache-btn">Cache file musik</button>
-      <button id="js-remove-cache-btn">Menghapus file musik dari cache</button>
-    </p>
-		
-		
+
 		<article>
             Ente pengunjung ke:
             <?php 
